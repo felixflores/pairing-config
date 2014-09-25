@@ -43,7 +43,7 @@
   df   = diff
   mine = log --author=Pairing
   st   = status
-  lg   = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --graph --abbrev-commit --date=relative  
+  lg   = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --graph --abbrev-commit --date=relative
   put  = "push origin HEAD"
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 
@@ -59,16 +59,17 @@
 
 [git-pair]
   authors = Aaron Christy <aaron@neo.com>
-  authors = Felix Flores <felix@neo.com>
-  authors = Jerry Nummi <jerry@neo.com>
-  authors = Jim Weirich <jim@neo.com>
-  authors = Ken Barker <ken@theneo.com>
-  authors = Paul Wilson <paul@neo.com>
-  authors = Tony Schneider <tonywok@gmail.com>
-  authors = Matt Jones <matt.jones@neo.com>
+  authors = Aaron Specht Baker <aaron.baker@neo.com>
   authors = Alex Burkhart <saterus@gmail.com>
-  authors = John Andrews <john@neo.com>
-  authors = Kris Hedges <kris.hedges@neo.com>
+  authors = Chandu Tennety <chandu@neo.com>
+  authors = Chris Westra <chris.westra@neo.com>
+  authors = Felix Flores <felixflores@gmail.com>
+  authors = James Martinez <james.martinez@neo.com>
+  authors = Jerry Nummi <jerry@neo.com>
+  authors = Matt Jones <matt.jones@neo.com>
+  authors = Ryan Stocker <ryan@neo.com>
+  authors = Scott Walker <scott.walker@neo.com>
+  authors = Tony Schneider <tonywok@gmail.com>
 
 [init]
   templatedir = ~/.git_template
