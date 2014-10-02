@@ -24,5 +24,5 @@ alias st='git status'
 alias sudo='sudo ' # allow running sudo against an alias
 alias redo='`cat $HOME/.zsh_history | tail -n2 | head -n1`' # run last command again
 alias now='sudo redo' # I meant sudo on that last command
-alias show-hidden-file='defaults write com.apple.finder AppleShowAllFiles YES && killall Finder'
-alias hide-hidden-file='defaults write com.apple.finder AppleShowAllFiles NO && killall Finder'
+alias show-hidden-files='defaults write com.apple.finder AppleShowAllFiles YES && killall Finder'
+alias hide-hidden-files='defaults write com.apple.finder AppleShowAllFiles NO && killall Finder'
